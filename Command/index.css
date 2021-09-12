@@ -1,0 +1,37 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+#app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.canvas-container {
+  flex-grow: 1;
+  background-color: #f8f8f8;
+}
+.command-container {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  background-color: #003265;
+  flex-shrink: 0;
+}
+#cammand-input {
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  width: 280px;
+  padding: 0 15px;
+}
+#cammand-input:focus {
+  outline: none;
+}
